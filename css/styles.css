@@ -1,0 +1,8 @@
+#books {
+    width: 250px;
+}
+
+.ui-widget-content .ui-state-active {
+    color: orange; /* any color you like */
+    background: #428BCA!important;
+}

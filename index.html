@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="//code.jquery.com/jquery-3.2.0.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Book Search</title>
+    <script>
+        $(function() {
+            $( "#books" ).autocomplete({
+                source: 'BookSearch.php'
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>Book Search</h2>
+    <label for="books">Title:</label>
+    <input id="books">
+</body>
+</html>
